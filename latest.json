@@ -1,11 +1,15 @@
 {
-  "tag_name": "v1.3.1",
-  "versionCode": 7,
-  "name": "澜 1.3.1",
-  "body": "跳过某个版本只不再自动弹出。手动点「检查更新」仍会打开安装卡片，并取消这次跳过。\n设置「关于与更新」里会显示已跳过的版本，可以点「恢复提醒」。\n「跳过此版本」改成更淡的文字按钮，避免误触。",
-  "published_at": "2026-11-20T01:02:32Z",
-  "apk_name": "lan-1.3.1.apk",
-  "apk_url": "https://github.com/yinerx/lan-releases/releases/download/v1.3.1/lan-1.3.1.apk",
+  "tag_name": "v1.3.2",
+  "versionCode": 8,
+  "name": "澜 1.3.2",
+  "body": "检查更新先走 jsDelivr（cdn，然后 fastly），再试 GitHub。国内网络不再一上来就卡在 GitHub 的次数限制。\n安装包同样先从镜像下载，摘要对上才安装。\n清单带 10 分钟缓存参数，稍旧的一份也不会让检查失败。",
+  "published_at": "2026-11-20T01:19:40Z",
+  "apk_name": "lan-1.3.2.apk",
+  "apk_url": "https://github.com/yinerx/lan-releases/releases/download/v1.3.2/lan-1.3.2.apk",
+  "apk_mirrors": [
+    "https://cdn.jsdelivr.net/gh/yinerx/lan-releases@main/apk/lan-1.3.2.apk",
+    "https://fastly.jsdelivr.net/gh/yinerx/lan-releases@main/apk/lan-1.3.2.apk"
+  ],
   "size": 13750886,
-  "sha256": "e144a0302967eae86801fb8975d42ba409648509d1f97ac227082aab3283a906"
+  "sha256": "87f4b6369046708b445330662579e047300215a65ac12656715330abdf088f9e"
 }
